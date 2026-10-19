@@ -1,0 +1,20 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build & Dist artifacts
+build/
+dist/
+*.spec
+_update_staging/
+
+# User data & staging (MUST NEVER BE COMMITTED)
+Downloads/
+Printed_Archive/
+printed_history.json
+_run_update.bat
+
+# Virtual environments
+venv/
+.env/
